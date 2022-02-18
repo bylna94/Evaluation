@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  color: #0c0c0c;
+  background-color: white;
+}
+
+.langue {
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+header {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.Sliders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.horaires {
+  margin-top: 30px;
+}
+
+.horaires p {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.etoiles {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#navbar .nav-link {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: gainsboro;
+}
+footer h1,
+footer h2,
+footer h3 {
+  color: rgb(0, 0, 0);
+}
+footer a,
+footer h3 {
+  color: rgb(3, 3, 3);
+
+  font-size: 1.1em;
+}
+.nom {
+  color: #000000;
+}
+.pied {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.adresse,
+.mentions,
+.copyright {
+  text-align: center;
+  color: rgb(3, 3, 3);
+}
+.reseaux {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 400px;
+  margin: auto;
+  margin-top: 25px;
+}
+.reseaux a {
+  width: 65px;
+  height: 65px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 62px;
+  vertical-align: center;
+  border: 3px solid white;
+  color: gainsboro;
+  font-size: 2.1em;
+  margin-bottom: 20px;
+}
+.reseaux a:last-child {
+  font-size: 2.4em;
+}
+.reseaux a:hover {
+  background-color: gainsboro;
+  color: rgb(0, 0, 0);
+}
+.news input {
+  width: 250px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+.adresse,
+.mentions {
+  text-align: center;
+}
+
+.news h2,
+.adresse h2,
+.mentions h2 {
+  font-size: 17px;
+  text-align: center;
+}
+.boutonPied {
+  width: 100px;
+  margin: auto;
+  color: rgb(10, 10, 10);
+
+  border-radius: 0;
+}
+.boutonPied:hover {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  color: #e0bb6d;
+  border-color: #e0bb6d;
+  background-color: #fdfdfd;
+}
+.boutonPied:active {
+  background-color: #f9fcff !important;
+  border-color: #e0bb6d !important;
+  color: #e0bb6d !important;
+}
+.news form,
+.mentions {
+  display: flex;
+  flex-direction: column;
+}
+.copyright {
+  margin-top: 30px;
+}
+.copyright p {
+  font-size: 0.8em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.news,
+.adresse,
+.mentions {
+  width: 375px;
+  margin-top: 25px;
+}

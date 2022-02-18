@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+
+    <!-- Lien css bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--Lien css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Lien cdn font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Lien google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo_hotel.PNG" alt="logo_hotel">
+            <h1>Parimis</h1>
+            <div class="langue">
+                <a href="#" title="Français"></a>
+                <img src="img/francais.png" alt="Site en français">
+                |
+                <img src="img/anglais.png" alt="Site en anglais">
+            </div>
+        </div>
+        <!--Nav Bar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: gainsboro;">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Hotel/Hotel.html">L'HÔTEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Chambre&Suite/Chambre&Suite.html">CHAMBRES & SUITES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Restaurant/Restaurant.html">RESTAURANT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Spa/Spa.html">SPA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Contact/Contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Réservation/Réservation.html">RÉSERVATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Avis/Avis.html">AVIS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn btn-warning" type="submit">Rechercher</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <!--formulaire de réservation -->
+
+        <h1>Formulaire de réservation</h1>
+
+
+        <form id="formulaire">
+
+
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" placeholder="Veuillez saisir votre nom...">
+            <div id="error_nom"></div>
+
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" id="prenom" name="prenom" placeholder="Veuillez saisir votre prénom ...">
+            <div id="error_prenom"></div>
+            
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email">
+            <div id="error_email"></div>
+
+            <label for="telephone">Telephone :</label>
+            <input type="tel" name="telephone" id="telephone" pattern="^[o-9]{10}$" required><div id="error_telephone"></div>
+
+            <label for="adulte">Adulte :</label>
+            <input type="number" id="adulte" step="1" value="1" min="1" max="6" name="adulte">
+
+            <label for="enfants">Enfant :</label>
+            <input type="number" id="enfants" step="1" value="0" min="0" max="6" name="enfants" >
+
+            <label for="arrivee"> Arrivée :</label>
+            <input type="date" id="arrivee" name="arrivee">
+
+            <label for="depart"> Départ :</label>
+            <input type="date" name="depart" id="depart">
+
+            <label for="type">Type de chambre :
+                <select name="type" id="type">
+                    <option> Chambre Classic </option>
+                    <option> Chambre Confort </option>
+                    <option> Chambre Deluxe </option>
+                    <option> Suite </option>
+                </select>
+            </label>
+
+            <input type="submit" name="submit" value="Réserver" id="reserver" class="bouton_reserver">
+        </form>
+
+
+        <!-- Pied de page -->
+        <footer>
+            <div class="reseaux">
+                <a href="https://fr-fr.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.pinterest.fr/"><i class="fa-brands fa-pinterest-p"></i></a>
+
+            </div>
+            <div class="pied">
+                <div class="news">
+                    <h2>Inscrivez-vous à notre newsletter :</h2>
+                    <form>
+                        <input class="form-control" type="email" placeholder=" Email" required>
+                        <button class="btn boutonPied btn-warning my-2 my-sm-0 " type="submit">S'inscrire</button>
+                    </form>
+                </div>
+                <div class="adresse">
+                    <h2>Adresse :</h2>
+                    <strong class="nom">Parimis Hôtel *****</strong><br>
+                    1 Avenue Montaigne <br>
+                    75008 Paris - France <br>
+                    +33 (1) 45 45 27 41<br>
+
+                </div>
+
+                <div class="mentions">
+                    <div class="text-center">
+
+                        <h2>Liens utiles :</h2>
+                        <a href="">Mentions légales</a>
+                        <a href="">CGV</a>
+                        <a href="../Contact/Contact.html">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright">
+
+                <h3>2022 © Parimis Hôtel</h3>
+
+            </div>
+        </footer>
+    </div>
+
+    <!--Lien js bootstrap -->
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
