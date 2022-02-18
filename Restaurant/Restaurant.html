@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+
+    <!-- Lien css bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Lien css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Lien cdn font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Lien google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo_hotel.PNG" alt="logo_hotel">
+            <h1>Parimis</h1>
+            <div class="langue">
+                <a href="#" title="Français"></a>
+                <img src="img/francais.png" alt="Site en français">
+                |
+                <img src="img/anglais.png" alt="Site en anglais">
+            </div>
+        </div>
+        <!-- Nav Bar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: gainsboro;">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Hotel/Hotel.html">L'HÔTEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Chambre&Suite/Chambre&Suite.html">CHAMBRES & SUITES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Restaurant/Restaurant.html">RESTAURANT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Spa/Spa.html">SPA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Contact/Contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Réservation/Réservation.html">RÉSERVATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Avis/Avis.html">AVIS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn btn-warning" type="submit">Rechercher</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h1>Restaurant Parimis</h1>
+        <div>
+            <p>Notre équipe vous propose une cuisine traditionnelle française et gastronomique, dans laquelle les
+                produits frais ont toute leur place et dans laquelle notre Chef insuffle son inspiration et toute sa
+                passion.</p>
+        </div>
+
+        <div class="horaires">
+            <P><strong>Horaires</strong></P>
+            <p>Petit déjeuner: de 7h à 10h30</p>
+            <p>Déjeuner: de 12h à 14h30</p>
+            <p>Diner: de 19h à 22h30</p>
+            <p>Réservation par téléphone au 01 45 45 27 41 </p>
+        </div>
+        <br>
+
+
+        <h1>NOS CARTES</h1>
+
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <div class="text-center">
+                    <h2>Carte Brasserie</h2>
+                    <strong>Entrées :</strong>
+                    <p>Saumon Gravlax</p>
+                    <strong>Plat :</strong>
+                    <p>Radicchio et Champigons Sauvages</p>
+                    <strong>Desserts :</strong>
+                    <p> Soufflé chocolat cardamone et coing</p>
+                    <div class="lien-carte">
+                        <div class="lien-carte">
+                            <a class="btn btn-warning" href="Doc/carte.pdf" role="button">Télécharger</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/Photo_burgers.jpg" alt=""
+                    class="d-block w-100 img-thumbnail">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/photo_dessert.jpg" alt=""
+                    class="d-block w-100 img-thumbnail">
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <div class="text-center">
+                    <h2>Carte Dégustation</h2>
+                    <strong>Entrées :</strong>
+                    <p>Saumon Gravlax</p>
+                    <strong>Plat :</strong>
+                    <p>Radicchio et Champigons Sauvages</p>
+                    <strong>Desserts :</strong>
+                    <p> Soufflé chocolat cardamone et coing</p>
+                    <div class="lien-carte">
+                        <a class="btn btn-warning" href="Doc/carte.pdf" role="button">Télécharger</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <div class="text-center">
+
+                    <h2>Carte Restaurant</h2>
+                    <strong>Entrées :</strong>
+                    <p>Saumon Gravlax</p>
+                    <strong>Plat :</strong>
+                    <p>Radicchio et Champigons Sauvages</p>
+                    <strong>Desserts :</strong>
+                    <p> Soufflé chocolat cardamone et coing</p>
+                    <div class="lien-carte">
+                        <div class="lien-carte">
+                            <a class="btn btn-warning" href="Doc/carte.pdf" role="button">Télécharger</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/photo_plat_saumon-et.jpg" alt=""
+                    class="d-block w-100 img-thumbnail">
+            </div>
+        </div>
+
+        <!-- Pied de page -->
+        <footer>
+            <div class="reseaux">
+                <a href="https://fr-fr.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.pinterest.fr/"><i class="fa-brands fa-pinterest-p"></i></a>
+
+            </div>
+            <div class="pied">
+                <div class="news">
+                    <h2>Inscrivez-vous à notre newsletter :</h2>
+                    <form>
+                        <input class="form-control" type="email" placeholder=" Email" required>
+                        <button class="btn boutonPied btn-warning my-2 my-sm-0 " type="submit">S'inscrire</button>
+                    </form>
+                </div>
+                <div class="adresse">
+                    <h2>Adresse :</h2>
+                    <strong class="nom">Parimis Hôtel *****</strong><br>
+                    1 Avenue Montaigne <br>
+                    75008 Paris - France <br>
+                    +33 (1) 45 45 27 41<br>
+
+                </div>
+
+                <div class="mentions">
+                    <div class="text-center">
+
+                        <h2>Liens utiles :</h2>
+                        <a href="">Mentions légales</a>
+                        <a href="">CGV</a>
+                        <a href="../Contact/Contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+
+                <h3>2022 © Parimis Hôtel</h3>
+
+            </div>
+        </footer>
+    </div>
+
+    <!-- Lien js bootstrap -->
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>

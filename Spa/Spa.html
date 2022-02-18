@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Span</Span></title>
+
+    <!-- Lien css bootstrap -->
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Lien css  -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Lien cdn font-awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Lien google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo_hotel.PNG" alt="logo_hotel">
+            <h1>Parimis</h1>
+            <div class="langue">
+                <a href="#" title="Français"></a>
+                <img src="img/francais.png" alt="Site en français">
+                |
+                <img src="img/anglais.png" alt="Site en anglais">
+            </div>
+        </div>
+        <!-- Nav Bar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: gainsboro;">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Hotel/Hotel.html">L'HÔTEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Chambre&Suite/Chambre&Suite.html">CHAMBRES & SUITES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Restaurant/Restaurant.html">RESTAURANT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Spa/Spa.html">SPA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Contact/Contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Réservation/Réservation.html">RÉSERVATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Avis/Avis.html">AVIS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn btn-warning" type="submit">Rechercher</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <h1>Le Spa et nos Soins</h1>
+        <div>
+            <p>Relaxant, énergisant, détoxifiant ou encore réconfortant, l'hôtel Parimis vous propose des massages et
+                traitements corps adaptés à toutes vos envies.
+
+                L’hôtel Parimis offre aussi des soins localisés, pour les mains, le dos, le ventre ou les jambes ainsi
+                qu’un de soin spécifique pour les femmes enceintes.</p>
+
+        </div>
+        <!-- carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/photo_spa.jpg" class="d-block w-100" alt="photo piscine">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/photo_spa2.jpg" class="d-block w-100" alt="photo piscine">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/photo_spa3.jpg" class="d-block w-100" alt="photo spa">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/photo_spa4.jpg" class="d-block w-100" alt="photo spa">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/Spa_Soins_découverte.jpg"
+                    alt="image d'une femme dans un sona" class="d-block w-100 img-thumbnail">
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <h1>Soins découverte</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla minima molestiae quae
+                    eaque dolore quod debitis aut nesciunt eos, nisi provident numquam a sint, vitae ex placeat quis ab!
+                    Praesentium ipsum suscipit, eligendi vitae quibusdam exercitationem neque? Dolorum est reprehenderit
+                    impedit accusamus tempore optio fuga ab! Saepe sit distinctio veritatis ex quos nostrum mollitia
+                    doloremque itaque accusamus! Voluptas, nam.</P>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <h1>Soins détente</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla minima molestiae
+                    quae eaque dolore quod debitis aut nesciunt eos, nisi provident numquam a sint, vitae ex
+                    placeat quis ab!
+                    Praesentium ipsum suscipit, eligendi vitae quibusdam exercitationem neque? Dolorum est
+                    reprehenderit impedit accusamus tempore optio fuga ab! Saepe sit distinctio veritatis ex
+                    quos nostrum mollitia doloremque itaque accusamus! Voluptas, nam.</P>
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/Spa_Soins_détente.jpg"
+                    alt="image soin spa" class="d-block w-100 img-thumbnail">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/Spa_Soins_relaxant.jpg"
+                    alt="image soin spa" class="d-block w-100 img-thumbnail">
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <h1>Soins relaxant</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla minima molestiae
+                    quae eaque dolore quod debitis aut nesciunt eos, nisi provident numquam a sint, vitae ex
+                    placeat quis ab!
+                    Praesentium ipsum suscipit, eligendi vitae quibusdam exercitationem neque? Dolorum est
+                    reprehenderit impedit accusamus tempore optio fuga ab! Saepe sit distinctio veritatis ex
+                    quos nostrum mollitia doloremque itaque accusamus! Voluptas, nam.</P>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <h1>Soins plaisir</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla minima molestiae
+                    quae eaque dolore quod debitis aut nesciunt eos, nisi provident numquam a sint, vitae ex
+                    placeat quis ab!
+                    Praesentium ipsum suscipit, eligendi vitae quibusdam exercitationem neque? Dolorum est
+                    reprehenderit impedit accusamus tempore optio fuga ab! Saepe sit distinctio veritatis ex
+                    quos nostrum mollitia doloremque itaque accusamus! Voluptas, nam.</P>
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/spa_Soins_plaisir.jpg" alt="image spa"
+                    class="d-block w-100 img-thumbnail">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-"><img src="img/Spa_Soins_évasion.jpg"
+                    alt="image d'un jacuzzi" class="d-block w-100 img-thumbnail">
+            </div>
+            <div class="col-6 .col-sm-.col-md- .col-lg- .col-xl-">
+                <h1>Soins évasion</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nulla minima molestiae
+                    quae eaque dolore quod debitis aut nesciunt eos, nisi provident numquam a sint, vitae ex
+                    placeat quis ab!
+                    Praesentium ipsum suscipit, eligendi vitae quibusdam exercitationem neque? Dolorum est
+                    reprehenderit impedit accusamus tempore optio fuga ab! Saepe sit distinctio veritatis ex
+                    quos nostrum mollitia doloremque itaque accusamus! Voluptas, nam.</P>
+
+            </div>
+        </div>
+
+
+        <!-- Pied de page -->
+        <footer>
+            <div class="reseaux">
+                <a href="https://fr-fr.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.pinterest.fr/"><i class="fa-brands fa-pinterest-p"></i></a>
+
+            </div>
+            <div class="pied">
+                <div class="news">
+                    <h2>Inscrivez-vous à notre newsletter :</h2>
+                    <form>
+                        <input class="form-control" type="email" placeholder=" Email" required>
+                        <button class="btn boutonPied btn-warning my-2 my-sm-0 " type="submit">S'inscrire</button>
+                    </form>
+                </div>
+                <div class="adresse">
+                    <h2>Adresse :</h2>
+                    <strong class="nom">Parimis Hôtel *****</strong><br>
+                    1 Avenue Montaigne <br>
+                    75008 Paris - France <br>
+                    +33 (1) 45 45 27 41 <br>
+
+                </div>
+
+                <div class="mentions">
+                    <div class="text-center">
+
+                        <h2>Liens utiles :</h2>
+                        <a href="">Mentions légales</a>
+                        <a href="">CGV</a>
+                        <a href="/Contact/Contact.html">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright">
+
+                <h3>2022 © Parimis Hôtel</h3>
+
+            </div>
+        </footer>
+
+    </div>
+    <!-- Lien js bootstrap -->
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
