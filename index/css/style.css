@@ -12,7 +12,11 @@ body {
   padding: 0px;
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  overflow-x:hidden;
 }
 
 .bg-image {
@@ -43,7 +47,7 @@ h1 {
 }
 
 .logo {
-  width: 120px;
+  width: 158px;
   margin: 0 auto;
 }
 

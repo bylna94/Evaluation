@@ -15,6 +15,40 @@ body {
   background-color: white;
 }
 
+body {
+  overflow-x:hidden;
+}
+.bg-image {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+#navbar .nav-link {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 45px;
+}
+
+#navbar .nav-link:hover { background-color:  #DE9829;
+  border-radius: 6px;
+  color:white;
+ }
+
+ #navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.d-flex .bouton { background-color:  #DE9829;
+  padding: 0;
+ }
+
+.d-flex .btn { padding: -2px; }
+
+
+
 .langue {
   position: absolute;
   top: 0;
@@ -38,7 +72,7 @@ h1 {
 }
 
 .logo {
-  width: 120px;
+  width: 158px;
   margin: 0 auto;
 }
 
@@ -77,15 +111,11 @@ select {
   height: 35px;
 }
 #reserver {
-  background-color: #ffc107;
+  background-color: #DE9829;
   width: 20%;
 }
 
-#navbar .nav-link {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 700;
-}
+
 
 footer {
   display: flex;
