@@ -4,6 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+
 img {
   max-width: 100%;
 }
@@ -50,6 +51,8 @@ h1 {
   width: 158px;
   margin: 0 auto;
 }
+
+
 
 .Sliders {
   display: flex;
@@ -195,4 +198,7 @@ footer h3 {
 .mentions {
   width: 375px;
   margin-top: 25px;
+}
+P{ font-size: 1.1em;
+
 }

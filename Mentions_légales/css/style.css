@@ -12,42 +12,17 @@ body {
   padding: 0px;
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 body {
   overflow-x:hidden;
 }
+
 .bg-image {
   padding-left: 0;
   padding-right: 0;
 }
-
-
-#navbar .nav-link {
-  color: #000000;
-  font-size: 15px;
-  font-weight: 700;
-  margin-right: 45px;
-}
-
-#navbar .nav-link:hover { background-color:  #DE9829;
-  border-radius: 6px;
-  color:white;
- }
-
- #navbar {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.d-flex .bouton { background-color:  #DE9829;
-  padding: 0;
- }
-
-.d-flex .btn { padding: -2px; }
-
-
 
 .langue {
   position: absolute;
@@ -76,7 +51,36 @@ h1 {
   margin: 0 auto;
 }
 
+.Sliders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+#navbar .nav-link {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 45px;
+}
+
+
+#navbar .nav-link:hover { background-color:  #DE9829;
+  border-radius: 6px;
+  color:white;
+ }
+
+ #navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.d-flex .bouton { background-color:  #DE9829;
+  padding: 0;
+ }
+
+
+
+.d-flex .btn { padding: -2px; }
 
 footer {
   display: flex;
@@ -191,7 +195,4 @@ footer h3 {
 .mentions {
   width: 375px;
   margin-top: 25px;
-}
-P{ font-size: 1.1em;
-
 }

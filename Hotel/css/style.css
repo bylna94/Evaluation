@@ -83,12 +83,7 @@ h1 {
 
 
 
-.Sliders {
-  
-display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+
 
 .horaires{
   margin-top:30px; 
@@ -280,4 +275,7 @@ text-align: center;
 .mentions {
   width: 375px;
   margin-top: 25px;
+}
+P{ font-size: 1.1em;
+
 }
