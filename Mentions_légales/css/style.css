@@ -35,10 +35,15 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+.titre h1{
+
+  text-align: center;
+}
+
 
 h1 {
   display: block;
-  text-align: center;
+ 
   font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
