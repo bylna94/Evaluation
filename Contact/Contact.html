@@ -108,27 +108,39 @@
 
         <form id="formulaire">
 
+            <div class="generic_court">
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" placeholder="">
+                <div id="error_nom">
 
-            <label for="nom">Nom :</label><br>
-            <input type="text" id="nom" name="nom" placeholder="">
-            <div id="error_nom"></div>
+                </div>
+            </div>
+            <div class="generic_court">
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" id="prenom" name="prenom" placeholder="">
+                <div id="error_prenom">
+
+                </div>
+            </div>
 
 
-            <label for="prenom">Prénom :</label><br>
-            <input type="text" id="prenom" name="prenom" placeholder="">
-            <div id="error_prenom"></div>
-
-            <label for="email">Email :</label><br>
-            <input type="email" id="email" name="email">
-            <div id="error_email"></div>
-
-            <label for="telephone">Telephone :</label>
-            <input type="tel" name="telephone" id="telephone" pattern="^[o-9]{10}$">
-            <div id="error_telephone"></div>
-
-            <label for="message">Message</label>
-            <textarea name="message" id="message" rows="5"></textarea>
-            <div id="error_message"></div>
+            <div class="generic_court">
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email">
+                <div id="error_email">
+                </div>
+            </div>
+            <div class="generic_court">
+                <label for="telephone">Telephone :</label>
+                <input type="tel" name="telephone" id="telephone" pattern="^[o-9]{10}$">
+                <div id="error_telephone">
+                </div>
+            </div>
+            <div class="generic_long">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5"></textarea>
+                <div id="error_message"></div>
+            </div>
 
             <input type="submit" name="submit" value="Envoyer" id="Envoyer" class="bouton_Envoyer">
         </form>
@@ -160,7 +172,7 @@
                     1 Avenue Montaigne <br>
                     75008 Paris - France <br>
                     ✆+33 (1) 45 45 27 41<br>
-                    <p >&#9993; <a href="mailto:contact@parimis-hotes.com">Contactez-nous </a></p>
+                    <p>&#9993; <a href="mailto:contact@parimis-hotes.com">Contactez-nous </a></p>
 
                 </div>
 
