@@ -88,53 +88,68 @@
 
         <form id="formulaire">
 
+            <div class="generic_court">
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" placeholder="">
+                <div id="error_nom"></div>
+            </div>
+            <div class="generic_court">
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" id="prenom" name="prenom" placeholder="">
+                <div id="error_prenom"></div>
+            </div>
 
-            <label for="nom">Nom :</label><br>
-            <input type="text" id="nom" name="nom" placeholder="">
-            <div id="error_nom"></div>
+            <div class="generic_court">
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email">
+                <div id="error_email"></div>
+            </div>
+            <div class="generic_court">
+                <label for="telephone">Telephone :</label>
+                <input type="tel" name="telephone" id="telephone" pattern="^[o-9]{10}$" required>
+                <div id="error_telephone"></div>
+            </div>
+            <div class="generic_court">
+                <label for="adulte">Adulte :</label>
+                <input type="number" id="adulte" step="1" value="1" min="1" max="6" name="adulte">
+            </div>
+            <div class="generic_court">
+                <label for="enfants">Enfant :</label>
+                <input type="number" id="enfants" step="1" value="0" min="0" max="6" name="enfants">
+            </div>
+            <div class="generic_court">
+                <label for="arrivee"> Arrivée :</label>
+                <input type="date" id="arrivee" name="arrivee">
+            </div>
 
-            <label for="prenom">Prénom :</label><br>
-            <input type="text" id="prenom" name="prenom" placeholder="">
-            <div id="error_prenom"></div>
-            
+            <div class="generic_court">
+                <label for="depart"> Départ :</label>
+                <input type="date" name="depart" id="depart">
+            </div>
 
-            <label for="email">Email :</label><br>
-            <input type="email" id="email" name="email"required>
-            <div id="error_email"></div>
-
-            <label for="telephone">Telephone :</label>
-            <input type="tel" name="telephone" id="telephone" pattern="^[o-9]{10}$" required><div id="error_telephone"></div>
-
-            <label for="adulte">Adulte :</label>
-            <input type="number" id="adulte" step="1" value="1" min="1" max="6" name="adulte">
-
-            <label for="enfants">Enfant :</label>
-            <input type="number" id="enfants" step="1" value="0" min="0" max="6" name="enfants" >
-
-            <label for="arrivee"> Arrivée :</label>
-            <input type="date" id="arrivee" name="arrivee">
-
-            <label for="depart"> Départ :</label>
-            <input type="date" name="depart" id="depart">
-
-            <label for="type">Type de chambre :
-                <select name="type" id="type">
-                    <option> Chambre Classic </option>
-                    <option> Chambre Confort </option>
-                    <option> Chambre Deluxe </option>
-                    <option> Suite </option>
-                </select>
-            </label>
-
+            <div class="generic_long">
+                <label for="type">Type de chambre :
+                    <select name="type" id="type">
+                        <option> Chambre Classic </option>
+                        <option> Chambre Confort </option>
+                        <option> Chambre Deluxe </option>
+                        <option> Suite </option>
+                    </select>
+                </label>
+            </div>
             <input type="submit" name="submit" value="Réserver" id="reserver" class="bouton_reserver">
         </form>
 
-<h1>Réservations par téléphone :</h1>
 
-<div class="text-center">
-<a>N'oubliez pas qu'il est également possible de réserver par téléphone :
-    ✆ +33 (1) 45 45 27 41</a>
-</div>
+        <h1>Réservations par téléphone :</h1>
+
+        <div class="text-center">
+            <a>N'oubliez pas qu'il est également possible de réserver par téléphone :
+                ✆ +33 (1) 45 45 27 41</a>
+        </div>
+
+
+
         <!-- Pied de page -->
         <footer>
             <div class="reseaux">
@@ -158,7 +173,7 @@
                     1 Avenue Montaigne <br>
                     75008 Paris - France <br>
                     ✆+33 (1) 45 45 27 41<br>
-                    <p >&#9993; <a href="mailto:contact@parimis-hotes.com">Contactez-nous </a></p>
+                    <p>&#9993; <a href="mailto:contact@parimis-hotes.com">Contactez-nous </a></p>
 
                 </div>
 

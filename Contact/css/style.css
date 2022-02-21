@@ -86,7 +86,7 @@ label span:last-child {
 }
 
 #formulaire {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 50px;
   padding: 20px;
@@ -239,3 +239,34 @@ P{ font-size: 1.1em;
 }
 
 
+#formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+.generic_court, .generic_court select {
+  min-width: 220px;
+  max-width: 220px;
+  margin-right: 9px;
+}
+
+
+.generic_long label, .champ_long input{
+  min-width: 244px;
+  max-width: 500px;
+
+}
+
+.boutonForm {
+  width: 150px;
+  margin: 0 auto;
+  color: white;
+  background-color: #E0BB6D;
+  border-color: #E0BB6D;
+  border-radius: 0;
+}
